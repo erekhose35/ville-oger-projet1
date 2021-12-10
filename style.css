@@ -1,3 +1,13 @@
-.logo-header {
-  max-width: 10%;
+body {
+  padding: 1%;
+  background-image: url("images/background1.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.logo {
+  max-width: 100px;
+}
+.social {
+  max-width: 50px;
 }

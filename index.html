@@ -21,71 +21,86 @@
     <title>La Ville Oger</title>
   </head>
   <body>
-    <header>
+    <header class="mb-3">
       <h1 class="text-center">La Ville Oger</h1>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"
-            ><img src="./images/logo-1.png" alt="logo" class="logo-header"
+      <nav class="navbar navbar-expand-sm navbar-light bg-light p-0">
+        <div class="container-fluid row">
+          <a class="navbar-brand col float-start" href="#"
+            ><img src="./images/logo-1.png" alt="logo" class="logo"
           /></a>
           <button
             class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <div class="collapse navbar-collapse col-10" id="navbarNavDropdown">
+            <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Accueil</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">Evènements</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Le coin des animaux</a>
               </li>
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
                   href="#"
-                  id="navbarDropdown"
+                  id="navbarDropdownMenuLink"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Dropdown
+                  Base de Loisirs
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider" /></li>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li><a class="dropdown-item" href="#">Horaires</a></li>
                   <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item" href="#">Les partenariats</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Les animations</a>
                   </li>
                 </ul>
               </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
-              </li>
             </ul>
-            <form class="d-flex">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button class="btn btn-outline-success" type="submit">
-                Search
-              </button>
-            </form>
           </div>
         </div>
       </nav>
     </header>
+    <footer
+      class="
+        bg-dark
+        text-light
+        d-flex
+        flex-column
+        justify-content-center
+        align-items-center
+        p-2
+      "
+    >
+      <span
+        >Sur les réseaux
+        <img
+          src="./images/facebookLogo.png"
+          alt="facebookLogo"
+          class="social rounded-circle bg-light"
+      /></span>
+      <span class="fw-lighter">Copyright Erekhose35</span>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
