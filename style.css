@@ -8,6 +8,10 @@ body {
 .logo {
   max-width: 100px;
 }
+main {
+  background: linear-gradient(180deg, rgb(113, 176, 235), rgb(231, 231, 114));
+  opacity: 0.9;
+}
 .social {
   max-width: 50px;
 }

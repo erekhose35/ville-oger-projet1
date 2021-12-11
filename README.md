@@ -16,4 +16,8 @@ créer un repertoire images/
 Ces rubriques seront communes à toutes les pages
 Je commence donc par les créer
 
+## le main
+
+Le main aura un background transparent, essai de plusieurs coloris
+
 ## Rubrique de la nav-bar
